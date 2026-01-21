@@ -1,16 +1,16 @@
-##🤖 AI-Powered GitHub Issue Assistant
+### 🤖 AI-Powered GitHub Issue Assistant
 
 Turn GitHub issues into structured, actionable insights using an AI-native, API-first architecture.
 
 This project demonstrates how developer issues can be automatically analyzed to extract summaries, issue type, priority, labels, and potential impact — enabling faster triage and better product decision-making.
 
-##🚀 Features
+## 🚀 Features
 
 🔍 Analyze any public GitHub issue by repository URL & issue number
 
 🧠 Generate structured insights:
 
-Summary
+# Summary
 
 Issue type (bug / documentation / enhancement / other)
 
@@ -26,7 +26,7 @@ Potential impact
 
 🛡️ Stable, deterministic reasoning (no flaky external LLM dependencies)
 
-##🧩 Architecture Overview
+## 🧩 Architecture Overview
 
 Frontend (Streamlit)
         |
@@ -53,7 +53,7 @@ github-issue-ai-assistant/
 ├── requirements.txt
 └── README.md
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Backend: FastAPI, Requests
 
@@ -65,31 +65,31 @@ Language: Python 3.10+
 
 Architecture Style: API-first, AI-native MVP
 
-###How to Run Locally
-##1️⃣ Clone the Repository
+### How to Run Locally
+## 1️⃣ Clone the Repository
 git clone <your-github-repo-url>
 cd github-issue-ai-assistant
 
-##How to Run Locally
+## How to Run Locally
 1️⃣ Clone the Repository
 git clone <your-github-repo-url>
 cd github-issue-ai-assistant
 
-##3️⃣ Start Backend (FastAPI)
+## 3️⃣ Start Backend (FastAPI)
 cd backend
 uvicorn main:app --reload
 Verify backend:
 
 http://127.0.0.1:8000/docs
 
-##4️⃣ Start Frontend (Streamlit)
+## 4️⃣ Start Frontend (Streamlit)
 
 Open a new terminal:
 
 cd frontend
 streamlit run app.py
 
-###📌 Example Usage
+### 📌 Example Usage
 
 Repository URL:
 https://github.com/facebook/react
@@ -97,7 +97,7 @@ https://github.com/facebook/react
 Issue Number:
 1
 
-##Output:
+## Output:
 
 {
   "summary": "Run each test in its own iframe",
@@ -107,3 +107,4 @@ Issue Number:
   "potential_impact": "May affect users depending on usage and severity"
 
 }
+
