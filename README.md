@@ -58,7 +58,7 @@ github-issue-ai-assistant/
 Backend: FastAPI, Requests
 
 Frontend: Streamlit
-
+LLM : Hugging Face
 APIs: GitHub REST API
 
 Language: Python 3.10+
@@ -107,4 +107,5 @@ Issue Number:
   "potential_impact": "May affect users depending on usage and severity"
 
 }
+
 
