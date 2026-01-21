@@ -1,4 +1,4 @@
-###🤖 AI-Powered GitHub Issue Assistant
+##🤖 AI-Powered GitHub Issue Assistant
 
 Turn GitHub issues into structured, actionable insights using an AI-native, API-first architecture.
 
@@ -105,4 +105,5 @@ Issue Number:
   "priority_score": "2",
   "suggested_labels": ["testing", "ui"],
   "potential_impact": "May affect users depending on usage and severity"
+
 }
